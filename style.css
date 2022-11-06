@@ -5,6 +5,7 @@
 }
 
 .body{
+   background-color:rgb(40, 39, 39);
     min-height: 100vh;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -12,11 +13,19 @@
     justify-content: center;
     align-items: center;
 }
-
+.game
+{
+    height: 100px;
+    background-color:rgb(40, 39, 39);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
 #scoreBox{
     position: absolute;
+    color: aliceblue;
     top: 9px;
-    right: 140px;
+    right: 100px;
     font-size: 39px;
     font-weight: bold;
     font-family: 'New Tegomin', serif;
@@ -24,15 +33,16 @@
 
 #hiscoreBox{
     position: absolute;
+    color: aliceblue;
     top: 59px;
-    right: 140px;
+    right: 100px;
     font-size: 39px;
     font-weight: bold;
     font-family: 'New Tegomin', serif;
 }
 
 #board{
-    background: linear-gradient(rgb(165, 245, 234), rgb(241, 245, 246));
+    background-color: rgb(185, 178, 178);
     width: 90vmin;
     height: 92vmin;
     border: 2px solid black;
